@@ -1,6 +1,6 @@
 /*
-  Make a flip-flop, which is an alternating pair of 
-  LEDs or lights where one is on when the other is off
+  Adjust our flip-flop, so that when pin 8 is HIGH
+  the flashing is faster and when pin 8 LOW is slower
  */
  
 // Pin 13 has an LED connected on most Arduino boards.
