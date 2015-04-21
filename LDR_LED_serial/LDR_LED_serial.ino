@@ -1,5 +1,5 @@
 /*
-LDR_LED - sketch to read the light level on LDR, alter 
+LDR_LED_serial - sketch to read the light level on LDR, alter 
 brightness of LED and report output to serial port
 */
 int ADCpin = 0;                // define the variables
