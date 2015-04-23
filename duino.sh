@@ -1,7 +1,7 @@
 #!/bin/bash
 # script to auto-install all the RasPiO Duino sketches on Pi
 
-# create sketchbook directory if dosn't exist
+# create sketchbook directory if doesn't exist
 mkdir /home/pi/sketchbook
 
 # give it the right permissions
