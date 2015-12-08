@@ -6,22 +6,22 @@ Compatible with the Arduino IDE 1.0 and above
 
 #include <Wire.h> 
 #include <LiquidCrystal_I2C.h>
-int ADCpin = 0;
+int ADCpin = 0;                    // declare variables
 int iterations = 10;
 float voltage = 3.3;
 float voltage1 = 3.3;
 int reading = 0;
 int reading1 = 0;
 
-LiquidCrystal_I2C lcd(0x27,20,4);  
 // set LCD i2c address to 0x27 and 20 char x 4 line display
+LiquidCrystal_I2C lcd(0x27,20,4);  
 
 void setup()
 {
   lcd.init();                      // initialize lcd 
   lcd.backlight();
-  lcd.setCursor(0, 0);  
-  lcd.print("    i2c 20x4 LCD");   // Print msg to LCD
+  lcd.setCursor(0, 0);             // go to column 0 row 0
+  lcd.print("    i2c 20x4 LCD");   // Print txt on LCD
   lcd.setCursor(0, 1);
   lcd.print("     powered by");
   lcd.setCursor(0, 3); 
