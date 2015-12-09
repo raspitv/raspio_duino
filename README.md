@@ -7,7 +7,7 @@ into Arduino programming...
 ![RasPiO Duino](http://rasp.io/wp-content/uploads/2015/04/14-assembled-RasPiO-Duino_700.jpg)
 
 These programs start very simply and build up in a step-by-step way as we go through them. 
-Everything is explained in the (currently 47 page) booklet 
+Everything is explained in the (currently 54 page) booklet 
 **[Learning Arduino Programming with RasPiO Duino...](http://rasp.io/duino-programming/)**
 
 ![RasPiO Duino](http://rasp.io/wp-content/uploads/2015/04/RasPiO-Duino-cover-219x300.png)
